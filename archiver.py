@@ -7,8 +7,8 @@ import requests
 #this code uses inspiration from peoplma's subredditarchive
 absolute_path = os.path.dirname(os.path.abspath(__file__))
 archive_path = os.path.join(absolute_path, 'data')
-reddit = praw.Reddit(client_id="client id",
-                     client_secret="client secret",
+reddit = praw.Reddit(client_id="RpE-AGxmVjApEw",
+                     client_secret="Na8g9uUYGr2LnOELU6ycHNJbXPM",
                      user_agent="python:MDEArchiver:v0.1.0")
 subreddit = reddit.subreddit('milliondollarextreme')
 
